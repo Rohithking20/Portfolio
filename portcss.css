@@ -1,0 +1,254 @@
+body{
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(55,72,108,1) 100%);
+}
+
+
+aside{
+    background-color:darkblue;
+    color:aliceblue;
+    width:40%;
+    float:right;
+    margin-right: 50px;
+    border-radius: 15px;
+}
+h1.heading{
+    margin-left:300px;
+    color:aquamarine;
+    font-size: 60px;
+}
+nav{
+    background-color: beige;
+}
+#list {
+    
+	float: left;
+    margin-left: 8%;
+    margin-right: 8%;
+	padding: 40px 40px 40px 40px;
+	margin-top: 20px;
+	border-radius: 10px;
+	list-style: none;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);;
+    
+}
+
+#list li {
+	display: inline-block;
+
+}
+
+#list li a {
+	color:brown;
+	text-decoration: none;
+	font-family:  Verdana;
+	padding: 10px 49px;
+
+}
+
+#list li a:hover {
+  background: linear-gradient(#6a6f7d, rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+  color: darkturquoise;
+  border: 0px solid whitesmoke;
+  width: 120px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+#intro{
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    margin-top: 60px;
+    color:aliceblue;
+    width:80%;
+    float:left;
+    margin-left: 50px;
+    border-radius: 15px;
+    padding:20px;
+}
+figure{
+    
+    float:right;
+    margin-right: 0px;
+    border-radius: 75px;
+
+}
+img{
+    border-radius: 70px;
+}
+
+#contimg{
+    width: 70px;
+    margin-left: 45%;
+    margin-right: auto;
+    margin-top: 15px;
+
+}
+
+#edu{
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    margin-top: 60px;
+    color:aliceblue;
+    width:80%;
+    float:right;
+    margin-right: 50px;
+    border-radius: 15px;
+    padding:20px;
+}
+
+table{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+th{
+    background-color: aquamarine;
+    color:black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width:250px;
+    height:60px;
+}
+table,th,td{
+    border:2px solid black;
+    height:60px;
+}
+#skills{
+    background: linear-gradient(0deg, rgba(195,34,34,1) 0%, rgba(6,16,122,1) 100%);
+    margin-top: 60px;
+    color:aliceblue;
+    width:80%;
+    float:left;
+    margin-left: 50px;
+    border-radius: 15px;
+    padding:20px;
+}
+
+.skill{
+    background: black;
+    margin-top: 60px;
+    color:aliceblue;
+    width:25%;
+    float:left;
+    margin-left: 42px;
+    border-radius: 15px;
+    padding:20px;
+    height:240px;
+}
+#Aspirations{
+    background: linear-gradient(0deg, rgba(41,179,33,1) 0%, rgba(6,16,122,1) 100%);
+    margin-top: 60px;
+    color:aliceblue;
+    width:80%;
+    float:right;
+    margin-right: 50px;
+    border-radius: 15px;
+    padding:20px;
+
+}
+
+#contact{
+    background: linear-gradient(0deg, rgba(179,45,33,1) 0%, rgba(122,6,119,1) 100%);
+    margin-top: 60px;
+    color:aliceblue;
+    width:80%;
+    float:left;
+    margin-left: 50px;
+    border-radius: 15px;
+    padding:20px;
+}
+
+.contactimg{
+    width:40px;
+    height:auto;
+}
+
+.cont1{
+    background-color: rgb(132, 132, 155);
+    height:100px;
+    float:left;
+    width: 500px;
+    text-align: center;
+    border-radius: 50%;
+}
+.cont2{
+    background-color: rgb(132, 132, 155);
+    height:100px;
+    float:right;
+    width: 500px;
+    text-align: center;
+    border-radius: 50%;
+}
+.cont3{
+    background-color: rgb(132, 132, 155);
+    margin-left:30%;
+    padding-top: 35px;
+    height:100px;
+    width: 500px;
+    text-align: center;
+    border-radius: 50%;
+
+}
+
+#aboutmehead{
+    background: url('back.jpg');
+    background-size: cover;
+}
+
+#aboutmehead header{
+    text-align: center;
+    color:aqua;
+    font-size: large;
+    background-color: black;
+    border-radius: 40%;
+}
+
+#aboutheader a{
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 35%;
+    margin-bottom: 10px;
+  }
+
+.aboutbox img{
+    width:170px;
+    height:auto;
+
+}
+.aboutbox figcaption{
+    background-color: white;
+    border:2px solid yellow;
+    color:black;
+    text-align: center;
+}
+
+.aboutbox{
+    background: black;
+    margin-top: 60px;
+    color:aliceblue;
+    width:60%;
+    margin-left: 20%;
+    margin-right: 50px;
+    border-radius: 15px;
+    padding:20px;
+}
+
+.paraabout{
+    font-size: 25px;
+}
+
+.img2{
+    width:170px;
+    height:auto;
+    float:left;
+    margin-right: 40px;
+
+}
+.headingclass{
+    font-size:40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:aquamarine;
+}
